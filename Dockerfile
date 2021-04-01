@@ -15,7 +15,8 @@ ENV SESSIONNAME="Ark Docker" \
     WARNONSTOP=1 \
     ARK_UID=1000 \
     ARK_GID=1000 \
-    TZ=UTC
+    TZ=UTC \
+    CROSSPLAY="false"
 
 ## Install dependencies
 RUN yum -y install glibc.i686 libstdc++.i686 git lsof bzip2 cronie perl-Compress-Zlib \

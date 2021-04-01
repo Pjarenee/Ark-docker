@@ -13,6 +13,7 @@ ark:
     - BACKUPONSTOP=1
     - WARNONSTOP=1
     - UPDATEONSTART=1
+    - CROSSPLAY="false"
     - TZ=UTC
     - ARK_GID=1000
     - ARK_UID=1000
