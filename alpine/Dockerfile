@@ -15,7 +15,8 @@ ENV SESSIONNAME="Ark Docker" \
     WARNONSTOP=1 \
     ARK_UID=1000 \
     ARK_GID=1000 \
-    TZ=UTC
+    TZ=UTC \
+    CROSSPLAY="false"
 
 RUN apk --no-cache add libstdc++ git lsof bzip2 perl-compress-raw-zlib curl bash \
  && addgroup -g ${ARK_GID} steam \
